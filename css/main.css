@@ -13,7 +13,9 @@ body{
 .Color-form{
     background: rgba(27,27,50,0.8);
     padding:10px;
-    margin: 10px;
+    margin: auto;
+    width: 50%;
+
 
   text-align: left;
 }
@@ -23,4 +25,14 @@ body{
 }
 .labelTitle{
     color: white;
+}
+.input{
+    width: 100%;
+}
+
+checkbox {
+    display: inline-block;
+    margin-right: 0.625rem;
+    min-height: 1.25rem;
+    min-width: 1.25rem;
 }
