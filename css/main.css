@@ -9,9 +9,12 @@ body{
 .text_center{
     text-align: center;
     padding: 10px;
+    color:white;
 }
 #survey-form{
-    width:95%;
+    width:90%;
+    padding-top: 20px;
+    margin: 0 auto;
 }
 .Color-form{
     background: rgba(27,27,50,0.8);
@@ -31,15 +34,19 @@ body{
     font-size: 1.125rem;
     margin-bottom: 0.5rem;
 }
+.ratioSize{
+    padding-bottom: 5px;
+}
 .input{
     width: 100%;
     margin: 5px, auto;
-    color: black;
 }
 .labelBorder{
     border:1px solid white;
-    border-radius: 2px;
+    border-radius: 5px;
+    color: black;
     margin-top:5px;
+    height: 2.5rem;
 }
 .submit-button{
     background-color: #37af65;
@@ -48,6 +55,8 @@ body{
     border-radius: 2px;
     text-align: center;
     padding: 15px;
+    font-size: large;
+    margin-bottom: 20px;
 }
 .checkbox {
     display: inline-block;
