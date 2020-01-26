@@ -10,11 +10,17 @@ body{
     text-align: center;
     padding: 10px;
 }
-#survey-form{
-    background: var(--color-darkblue-alpha);
+.Color-form{
+    background: rgba(27,27,50,0.8);
+    padding:10px;
+    margin: 10px;
 
+  text-align: left;
 }
 .form-group{
     margin: 0 auto 1.25rem auto;
     padding: 0.25rem;
+}
+.labelTitle{
+    color: white;
 }
